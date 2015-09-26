@@ -1,0 +1,8 @@
+All Pages <br>
+<ul>
+{% for page in pages %}
+    <li>
+    <a href="{{page.page_slug}}">{{page.page_title}}</a>
+    </li>
+{% endfor %}
+</ul>
